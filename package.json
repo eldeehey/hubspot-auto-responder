@@ -1,0 +1,17 @@
+{
+  "name": "hubspot-auto-responder",
+  "version": "1.0.0",
+  "description": "Friendly AI-powered auto-responder for Hubspot form submissions",
+  "type": "module",
+  "main": "hubspot-auto-responder.js",
+  "scripts": {
+    "start": "node hubspot-auto-responder-advanced.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.28.0",
+    "axios": "^1.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
